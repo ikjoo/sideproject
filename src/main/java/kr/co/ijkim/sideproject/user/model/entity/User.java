@@ -25,6 +25,8 @@ public class User extends EntityBase {
     private String userName;
     @Column(length = 20, nullable = false)
     private String phoneNumber;
+    @Column(length = 10, nullable = false)
+    private String role;
 
 
 }
